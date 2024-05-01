@@ -1,0 +1,16 @@
+.products{
+    padding: 60px 0;
+}
+.products h2{
+    margin-bottom: 30px;
+}
+.products li{
+    padding: 30px;
+    border-radius: 16px;
+    border: solid 1px var(--color-black20)
+} 
+.products li a{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+} 

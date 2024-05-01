@@ -1,0 +1,46 @@
+.button {
+  padding: 0 30px;
+  height: 52px;
+  background-color: var(--color-red);
+  color: var(--color-white);
+  font-family: var(--font-primary);
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 700;
+  transition: 0.3s;
+  text-wrap: nowrap;
+}
+.button:hover {
+  filter: brightness(0.9);
+}
+.fixed-button {
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
+  background-color: var(--color-red);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 1001;
+}
+.fixed-button .material-symbols-outlined {
+  font-size: 40px;
+  color: var(--color-white);
+}
+.swiper .swiper-button-next,
+.swiper .swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  color: var(--color-black);
+  background-color: var(--color-light-red);
+  opacity: 0.5;
+  border-radius: 20px;
+}
+.swiper .swiper-button-next::after,
+.swiper .swiper-button-prev::after {
+  font-size: 16px;
+  font-weight: 900;
+}

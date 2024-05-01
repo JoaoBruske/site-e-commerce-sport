@@ -1,0 +1,14 @@
+.field{
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-black);
+    padding: 0 20px;
+    height: 49px;
+    background-color: var(--color-white);
+    border: solid 1px var(--color-black20);
+    max-width: 100%;
+}
+.field.full{
+    width: 100%;
+}
